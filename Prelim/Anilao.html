@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="prototype.css">
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+  <style>
+.darkmode{
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+
+}
+</style>
+</head>
+<body>
+
+<div class="logo" align="right">
+  <h3>TG.COM <img src="phil.jpeg" alt="Smiley face" width="42" height="42"></h3>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="prototype.html">Home</a></li>
+            <li class="active"><a href="#">Anilao</a></li>
+            <li><a href="#">Banate</a></li>
+            <li><a href="#">Barotac Nuevo</a></li>
+			<li><a href="#">Dingle</a></li>
+            <li><a href="#">Dueñas</a></li>
+            <li><a href="#">Dumangas</a></li>
+			<li><a href="#">Passi City</a></li>
+            <li><a href="#">San Enrique</a></li>
+         
+        
+      </ul>
+	  <div class="darklight">
+	  <button class="darkmode" onclick="myFunction()">Toggle dark mode</button>
+	  </div>
+    </div>
+	<div>
+	
+	</div>
+  </div>
+</nav>
+<center>
+   <div class="container">
+	  <img class="img-fluid" src="Z:\ProjectBac\Iloilo_Fourth_Legislative_District.png" alt="D4" width="460" height="345"> 
+      <h1 style="font-size:2vw;" align="center">Hello World</h1>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+</center>
+
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
